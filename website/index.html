@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Web5rService </title>
+<link rel="icon" href="../website/IconPC.png" sizes="180x180">
+<link rel="icon" href="../website/IconMobile1.png" sizes="180x180">
+<link rel="icon" href="../website/IconMobile2.png" sizes="180x180">
+<link rel="stylesheet" href="../Website/index.css">
+<script src="../website/tab.js"></script>
+<meta name="description" content="Preview-page">
+<meta charset="utf-8">
+</head>
+<body>
+<div id="header"> </div>
+<p class="p1"> Pictures </p>
+<p id="p2"> click to hear  </p>
+<div id="flex">
+<div>
+<img src="../website/jaguar.jpg" onClick="document.getElementById('jaguar').play();">
+</div>
+<div>
+<img src="../website/tiger.jpg" onClick="document.getElementById('tiger').play();">
+</div>
+<div>
+<img src="../website/sleigh.jpg" onClick="document.getElementById('horse').play();">
+</div>
+</div>
+<div id="flex2">
+<img id="img" src="../website/bird.jpg" onClick="document.getElementById('bird').play();">
+<img id="img2" src="../website/sheep.jpg" onClick="document.getElementById('sheep').play();">
+</div>
+<audio id="jaguar">
+<source src="../website/jaguar.ogg" type="audio/ogg">
+<source src="../website/jaguar.mp3" type="audio/mpeg">
+ </audio>
+<audio id="tiger">
+<source src="../website/tiger.ogg" type="audio/ogg">
+<source src="../website/tiger.mp3" type="audio/mpeg">
+</audio>
+<audio id="horse">
+<source src="../website/horse.ogg" type="audio/ogg">
+<source src="../website/horse.mp3" type="audio/mpeg">
+</audio>
+<audio id="bird">
+<source src="../website/bird.ogg" type="audio/ogg">
+<source src="../website/bird.mp3" type="audio/mpeg">
+</audio>
+<audio id="sheep">
+<source src="../website/sheep.ogg" type="audio/ogg">
+<source src="../website/sheep.mp3" type="audio/mpeg">
+</audio>
+<div id="world">
+<div> </div>
+<div> </div>
+<div id="div">
+<div class="tab">
+<button class="tablinks" onclick="openText(event, 'Jaguar')">Jaguar</button>
+<button class="tablinks" onclick="openText(event, 'Tiger')">Tiger</button>
+<button class="tablinks" onclick="openText(event, 'Horse')">Horse</button>
+<button class="tablinks" onclick="openText(event, 'Wagtail')">Wagtail</button>
+<button class="tablinks" onclick="openText(event, 'Sheep')">Sheep</button>
+</div>
+<div id="Jaguar" class="tabcontent">
+<h3> Jaguar </h3>
+<p> The jaguar (Panthera onca) is a large felid species and the only living
+  member of the genus Panthera native to the Americas. With a body length of up
+   to 1.85 m (6 ft 1 in) and weight of up to 96 kg (212 lb), it is the largest
+   cat species in the Americas and the third largest in the world.
+   <br>
+   <br>
+source: <a href="https://en.wikipedia.org/wiki/jaguar"target="_blank">https://en.wikipedia.org/wiki/jaguar</a>
+</p>
+</div>
+<div id="Tiger" class="tabcontent">
+<h3> Tiger </h3>
+<p> The tiger (Panthera tigris) is the largest living cat species and a member
+  of the genus Panthera. It is most recognisable for its dark vertical stripes
+  on orange fur with a white underside. It is an apex predator, primarily
+  preying on ungulates such as deer and wild boar.
+<br>
+<br>
+source: <a href="https://en.wikipedia.org/wiki/tiger"target="_blank">https://en.wikipedia.org/wiki/tiger</a>
+ </p>
+</div>
+<div id="Horse" class="tabcontent">
+<h3> Horse </h3>
+<p> The horse (Equus ferus caballus) is a domesticated one-toed hoofed
+   mammal. It belongs to the taxonomic family Equidae and is one of two extant
+   subspecies of Equus ferus. The horse has evolved over the past 45 to 55
+   million years from a small multi-toed creature, Eohippus, into the large,
+   single-toed animal of today.
+<br>
+<br>
+source: <a href="https://en.wikipedia.org/wiki/horse"target="_blank">https://en.wikipedia.org/wiki/horse</a>
+ </p>
+</div>
+<div id="Wagtail" class="tabcontent">
+<h3> Wagtail </h3>
+<p> Wagtails are a group of passerine birds that form the genus Motacilla in the
+   family Motacillidae. The forest wagtail belongs to the monotypic genus
+   Dendronanthus which is closely related to Motacilla and sometimes included
+   therein. The common name and genus names are derived from their
+   characteristic tail pumping behaviour.
+<br>
+<br>
+source: <a href="https://en.wikipedia.org/wiki/wagtail"target="_blank">https://en.wikipedia.org/wiki/wagtail</a>
+</p>
+</div>
+<div id="Sheep" class="tabcontent">
+<h3> Sheep </h3>
+<p> Sheep (Ovis aries) are quadrupedal, ruminant mammals typically kept as
+  livestock. Like all ruminants, sheep are members of the order Artiodactyla,
+  the even-toed ungulates. Although the name sheep applies to many species in
+  the genus Ovis, in everyday usage it almost always refers to Ovis aries.
+<br>
+<br>
+source: <a href="https://en.wikipedia.org/wiki/sheep" target="_blank">https://en.wikipedia.org/wiki/sheep</a>
+ </p>
+</div>
+</div>
+</div>
+<div> </div>
+<div> </div>
+</div>
+<div id="background">
+<p id="p4"> Let´s start! </p>
+<div id="video">
+<video controls>
+<source src="../website/video1.mp4" type="video/mp4">
+<source src="../website/video1.ogv" type="video/ogg">
+  Sorry, your browser doesn´t support embedded videos.
+</video>
+</div>
+</div>
+<div id="footer">
+<p><br> &copy; 2021 Web5rService. All rights reserved.  </p>
+</div>
+</body>
+</html>
